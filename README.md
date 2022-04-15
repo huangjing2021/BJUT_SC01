@@ -1,4 +1,33 @@
-#HJ
+#EN
+The smart contract dataset can be downloaded in the following link:
+Link: https://pan.baidu.com/s/1_mn9HMMXU2ceYXTGPSuK1A 
+Extraction code: 8rxx
+
+This dataset was tested using SCStudio, a security analysis tool developed by Tsinghua University, which analyzes Solidity and integrates Oyente,Pied-Piper and other open source tools to build a comprehensive testing system that supports the detection of most types of smart contract vulnerabilities with high reliability.
+
+There are 149,363 contracts in this data set, and after cleaning, there are 148,384 contracts. It contains 'address ',' contractCode ',' timestamp ',' createValue ','createdBlockNumber ', 'createdTransactionHash ',' creationCode ',' Creator 'and 8 other properties,which includes 'Integer overflow or underflow',
+  'Unchecked call return value', 'Unprotected ether withdrawal',
+  'Unprotected self-destruct instruction', 'Reentrancy',
+  'Assert violation', 'Delegatecall to untrusted callee',
+  'DoS with failed call', 'Timestamp dependence',
+  'Weak sources of randomness from chain attributes',
+  'Write to arbitrary storage location',
+  'Arbitrary jump with function type variable',
+  'Call stack depth limit exceeding', 'Contract contains unknown address',
+  'Use of call function with no data', 'Multiplication after division',
+  'Using approve function of the ERC-20 token standard',
+  'Return value is always false', 'ERC-20 transfer should throw',
+  'Extra gas consumption', 'Locked money', 'Overpowered role',
+  'Redundant fallback function', 'Unsafe send',
+  'Worse readability with revert', '`ArbitraryTransfer` problem',
+  'GenerateToken problem', 'DestroyToken problem', 'FrozeAccount problem',
+  'DisableTransfer problem' ,etc.
+  According to the convention, "0" indicates that there is no such vulnerability, and "1" indicates that there is such vulnerability.
+  In addition, the label 'flag' indicates whether there are any vulnerabilities in the contract. According to the convention, "0" indicates no vulnerabilities, and "1" indicates vulnerabilities.
+  To obtain the source code, go to the official XBlock website at http://xblock.pro/#/dataset/17
+
+
+#CN
 智能合约数据集在以下连接中下载
 链接: https://pan.baidu.com/s/1_mn9HMMXU2ceYXTGPSuK1A 提取码: 8rxx 
 
