@@ -1,7 +1,4 @@
 #EN
-The smart contract dataset can be downloaded in the following link:
-Link: https://pan.baidu.com/s/1_mn9HMMXU2ceYXTGPSuK1A 
-Extraction code: 8rxx
 
 This dataset was tested using SCStudio, a security analysis tool developed by Tsinghua University, which analyzes Solidity and integrates Oyente,Pied-Piper and other open source tools to build a comprehensive testing system that supports the detection of most types of smart contract vulnerabilities with high reliability.
 
@@ -28,8 +25,6 @@ There are 149,363 contracts in this data set, and after cleaning, there are 148,
 
 
 #CN
-智能合约数据集在以下连接中下载
-链接: https://pan.baidu.com/s/1_mn9HMMXU2ceYXTGPSuK1A 提取码: 8rxx 
 
 本数据集使用清华大学开发的安全分析工具SCStudio进行检测，该工具针对Solidity语言进行分析，集成了Oyente,Pied-Piper等多种开源工具构建一个综合的测试系统，支持对大多数类型的智能合约漏洞检测，具有较高的可信度。
 
