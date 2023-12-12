@@ -2,7 +2,7 @@
 
 This dataset was tested using SCStudio, a security analysis tool developed by Tsinghua University, which analyzes Solidity and integrates Oyente,Pied-Piper and other open source tools to build a comprehensive testing system that supports the detection of most types of smart contract vulnerabilities with high reliability.
 
-There are 149,363 contracts in this data set, and after cleaning, there are 148,384 contracts. It contains 'address ',' contractCode ',' timestamp ',' createValue ','createdBlockNumber ', 'createdTransactionHash ',' creationCode ',' Creator 'and 8 other properties,which includes 'Integer overflow or underflow',
+There are 148,384 contracts in this data set. It contains 'address ',' contractCode ',' timestamp ',' createValue ','createdBlockNumber ', 'createdTransactionHash ',' creationCode ',' Creator 'and 8 other properties,which includes 'Integer overflow or underflow',
   'Unchecked call return value', 'Unprotected ether withdrawal',
   'Unprotected self-destruct instruction', 'Reentrancy',
   'Assert violation', 'Delegatecall to untrusted callee',
@@ -19,7 +19,7 @@ There are 149,363 contracts in this data set, and after cleaning, there are 148,
   'Worse readability with revert', '`ArbitraryTransfer` problem',
   'GenerateToken problem', 'DestroyToken problem', 'FrozeAccount problem',
   'DisableTransfer problem' ,etc.
-  According to the convention, "0" indicates that there is no such vulnerability, and "1" indicates that there is such vulnerability.
+  
   In addition, the label 'flag' indicates whether there are any vulnerabilities in the contract. According to the convention, "0" indicates no vulnerabilities, and "1" indicates vulnerabilities.
   To obtain the source code, go to the official XBlock website at http://xblock.pro/#/dataset/17
 
@@ -44,6 +44,6 @@ There are 149,363 contracts in this data set, and after cleaning, there are 148,
   'Redundant fallback function', 'Unsafe send',
   'Worse readability with revert', '`ArbitraryTransfer` problem',
   'GenerateToken problem', 'DestroyToken problem', 'FrozeAccount problem',
-  'DisableTransfer problem'等多种漏洞标签，按照约定，“0”代表不存在该种漏洞，“1”代表存在该种漏洞。
-另外标签'flag'表示该合约是否存在漏洞，按照约定，“0”代表不存在漏洞，“1”代表存在漏洞。
+  'DisableTransfer problem'等29种漏洞标签。
+另外标签'flag'表示该合约是否存在漏洞，其中，“0”代表不存在漏洞，“1”代表存在漏洞。
 若要获取源码，请前往XBlock官方网站下载，地址是 http://xblock.pro/#/dataset/17
