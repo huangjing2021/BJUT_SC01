@@ -1,27 +1,8 @@
 #EN
 
-This dataset was tested using SCStudio, a security analysis tool developed by Tsinghua University, which analyzes Solidity and integrates Oyente,Pied-Piper and other open source tools to build a comprehensive testing system that supports the detection of most types of smart contract vulnerabilities with high reliability.
+This dataset uses SCStudio, a security analysis tool developed by Tsinghua University, for labeling. This tool conducts analysis on the Solidity language and integrates open source tools such as Oyente and Pied-Piper to build a comprehensive testing system, supporting the detection of most types of smart contract vulnerabilities and providing a high level of reliability.
 
-There are 148,384 contracts in this data set. It contains 'address ',' contractCode ',' timestamp ',' createValue ','createdBlockNumber ', 'createdTransactionHash ',' creationCode ',' Creator 'and 8 other properties,which includes 'Integer overflow or underflow',
-  'Unchecked call return value', 'Unprotected ether withdrawal',
-  'Unprotected self-destruct instruction', 'Reentrancy',
-  'Assert violation', 'Delegatecall to untrusted callee',
-  'DoS with failed call', 'Timestamp dependence',
-  'Weak sources of randomness from chain attributes',
-  'Write to arbitrary storage location',
-  'Arbitrary jump with function type variable',
-  'Call stack depth limit exceeding', 'Contract contains unknown address',
-  'Use of call function with no data', 'Multiplication after division',
-  'Using approve function of the ERC-20 token standard',
-  'Return value is always false', 'ERC-20 transfer should throw',
-  'Extra gas consumption', 'Locked money', 'Overpowered role',
-  'Redundant fallback function', 'Unsafe send',
-  'Worse readability with revert', '`ArbitraryTransfer` problem',
-  'GenerateToken problem', 'DestroyToken problem', 'FrozeAccount problem',
-  'DisableTransfer problem' ,etc.
-  
-  In addition, the label 'flag' indicates whether there are any vulnerabilities in the contract. According to the convention, "0" indicates no vulnerabilities, and "1" indicates vulnerabilities.
-  To obtain the source code, go to the official XBlock website at http://xblock.pro/#/dataset/17
+This dataset contains 148,384 contracts, with 8 attributes including 'address (address)', 'contractCode (bytecode)', 'timestamp (timestamp)', 'createValue (creation value)', 'createdBlockNumber (creation block number)', 'createdTransactionHash (creation transaction hash)', 'creationCode (creation code)', and 'creator (creator)'. It has 29 vulnerability labels, including 'Integer overflow or underflow', 'Unchecked call return value', 'Unprotected ether withdrawal', 'Unprotected self-destruct instruction', 'Reentrancy', 'Assert violation', 'Delegatecall to untrusted callee', 'DoS with failed call', 'Timestamp dependence', 'Weak sources of randomness from chain attributes', 'Write to arbitrary storage location', 'Arbitrary jump with function type variable', 'Call stack depth limit exceeding', 'Contract contains unknown address', 'Use of call function with no data', 'Multiplication after division', 'Using approve function of the ERC-20 token standard', 'Return value is always false', 'ERC-20 transfer should throw', 'Extra gas consumption', 'Locked money', 'Overpowered role', 'Redundant fallback function', 'Unsafe send', 'Worse readability with revert', 'ArbitraryTransfer problem', 'GenerateToken problem', 'DestroyToken problem', 'FrozeAccount problem', 'DisableTransfer problem'. Additionally, the label 'flag' indicates whether the contract has a vulnerability, with "0" representing no vulnerability and "1" representing a vulnerability. To obtain the source code, please visit the XBlock official website for download, at the address:http://xblock.pro/#/dataset/17
 
 
 #CN
